@@ -1,0 +1,1 @@
+翻訳元：[Themes](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
