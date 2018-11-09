@@ -42,3 +42,7 @@ TIP
 **多階層のパンくずを置かないでください**
 
 戻るボタンは、常に「前の画面に戻る」というただ1つの振る舞いをするものです。もし現在の画面へのフルパスなしではユーザが迷子になってしまうと思うなら、アプリ階層の平坦化を検討してください。
+
+**テキストボタンの場合は十分なスペースを確保してください**
+
+ナビゲーションバーに複数のテキストボタンが含まれていると、ボタン同士が区別できないほど混じり合って見えてしまう場合があります。ボタンの間には固定幅のスペースを入れて区分けをしましょう。開発者用ガイダンスとして、[UIBarButtonItem](https://developer.apple.com/documentation/uikit/uibarbuttonitem)の[UIBarButtonSystemItemFixedSpace](https://developer.apple.com/documentation/uikit/uibarbuttonsystemitem/uibarbuttonsystemitemfixedspace)をご参照ください。
