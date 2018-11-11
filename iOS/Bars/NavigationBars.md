@@ -46,3 +46,9 @@ TIP
 **テキストボタンの場合は十分なスペースを確保してください**
 
 ナビゲーションバーに複数のテキストボタンが含まれていると、ボタン同士が区別できないほど混じり合って見えてしまう場合があります。ボタンの間には固定幅のスペースを入れて区分けをしましょう。開発者用ガイダンスとして、[UIBarButtonItem](https://developer.apple.com/documentation/uikit/uibarbuttonitem)の[UIBarButtonSystemItemFixedSpace](https://developer.apple.com/documentation/uikit/uibarbuttonsystemitem/uibarbuttonsystemitemfixedspace)をご参照ください。
+
+**アプリ内の情報階層を平坦化するために、ナビゲーションバー内にセグメンティッドコントロールを使うことを検討してください**
+
+もしナビゲーションバー内にセグメンティッドコントロールを使うなら、階層のトップレベルのみで使い、下階層では戻るボタンのタイトルを正確に付けてください。[Segmented Controls](https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/)のガイダンスも加えて確認してください。
+
+[画像]
