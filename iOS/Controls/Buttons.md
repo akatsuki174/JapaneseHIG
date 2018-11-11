@@ -1,1 +1,7 @@
 翻訳元：[Buttons](https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/)
+
+# ボタン
+
+ボタンはアクションをスタートさせるものであり、カスタマイズ可能な背景を持っていたり、タイトル、アイコンを含んでいたりします。ほとんどのユースケースをカバーできるよう、システム側で予め定義したボタンはいくつかあります。また、完全に自分でカスタマイズしたボタンを作ることもできます。
+
+開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)を見てください。
