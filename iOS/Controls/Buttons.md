@@ -29,3 +29,9 @@
 デフォルトではシステム標準のボタンにボーダー、背景はありません。しかし場合によってはボーダーや背景が必要になってきます。電話アプリではボーダーで囲まれた数字キーが伝統的な電話のイメージを強めてますし、電話をかけるボタンの背景色は目に付きやすいようになっています。
 
 開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)の[UIButtonTypeSystem](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypesystem)を見てください。
+
+## 詳細表示ボタン
+
+詳細表示ボタンは、追加情報や画面上の特定の項目に関連する機能について書かれたビュー（通常はモーダルビュー）を表示します。詳細表示ボタンはどんなタイプのビューにでも使うことができますが、普通はテーブルの中で特定の行の情報にアクセスするために使われます。
+
+[写真]
