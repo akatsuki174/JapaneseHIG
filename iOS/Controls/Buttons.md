@@ -23,3 +23,9 @@
 **タイトルは短くしましょう**
 
 テキストが長いとインターフェースは煩雑になりますし、小さい画面ではカットされてしまいます。
+
+**必要な時のみ、ボーダーや背景を入れることを検討してください**
+
+デフォルトではシステム標準のボタンにボーダー、背景はありません。しかし場合によってはボーダーや背景が必要になってきます。電話アプリではボーダーで囲まれた数字キーが伝統的な電話のイメージを強めてますし、電話をかけるボタンの背景色は目に付きやすいようになっています。
+
+開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)の[UIButtonTypeSystem](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypesystem)を見てください。
