@@ -41,3 +41,9 @@
 テーブル行内に詳細表示ボタンがある場合、タップすると追加情報が表示されます。その他の部分をタップすると行が選択されるかアプリで定義された動作が実行されます。もし追加情報を見るのに行全体をタップしてほしい場合は、詳細表示ボタンを使わないでください。代わりにシェブロン（＞）のように見える詳細表示アクセサリーコントロールを使ってください。詳しくは[UITableViewCell](https://developer.apple.com/documentation/uikit/uitableviewcell)の[UITableViewCellAccessoryType](https://developer.apple.com/documentation/uikit/uitableviewcellaccessorytype)を見てください。
 
 開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)の[UIButtonTypeDetailDisclosure](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypedetaildisclosure)を見てください。
+
+## インフォボタン
+
+インフォボタンはアプリの詳細を表示します。場合によってはビューが回転して表示されることもあります。このボタンはlightとdarkの2つのスタイルがあります。自分のアプリのデザインに最も合ったスタイルを選択し、画面に埋もれないようにしてください。
+
+開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)の[UIButtonTypeInfoLight](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypeinfolight)と[UIButtonTypeInfoDark](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypeinfodark)を見てください。
