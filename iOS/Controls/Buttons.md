@@ -53,3 +53,9 @@
 既存の連絡先リストを見てテキストフィールドや他のビューに追加したい時、このボタンをタップします。例えばメールではメッセージの宛先フィールドにある連絡先追加ボタンをタップすると連絡先リストから受信者を選択できます。
 
 [写真]
+
+**連絡先追加ボタンに加えてキーボード入力も使えるようにしておきましょう**
+
+連絡先追加ボタンは連絡先情報を入力する時の唯一の手段ではなく選択肢です。このボタンは既存の連絡先から追加するためのショートカットとして提供し、キーボードでも連絡先情報を入力できるようにするのが良いです。
+
+開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)の[UIButtonTypeContactAdd](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypecontactadd)を見てください。
