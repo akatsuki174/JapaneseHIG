@@ -47,3 +47,9 @@
 インフォボタンはアプリの詳細を表示します。場合によってはビューが回転して表示されることもあります。このボタンはlightとdarkの2つのスタイルがあります。自分のアプリのデザインに最も合ったスタイルを選択し、画面に埋もれないようにしてください。
 
 開発者向けガイダンスは[UIButton](https://developer.apple.com/documentation/uikit/uibutton)の[UIButtonTypeInfoLight](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypeinfolight)と[UIButtonTypeInfoDark](https://developer.apple.com/documentation/uikit/uibuttontype/uibuttontypeinfodark)を見てください。
+
+## 連絡先追加ボタン
+
+既存の連絡先リストを見てテキストフィールドや他のビューに追加したい時、このボタンをタップします。例えばメールではメッセージの宛先フィールドにある連絡先追加ボタンをタップすると連絡先リストから受信者を選択できます。
+
+[写真]
