@@ -9,3 +9,8 @@
 [View](https://developer.apple.com/design/human-interface-guidelines/ios/views/)：テキスト、グラフィック、アニメーション、インタラクティブな要素など、人々がアプリ内で見かける主要なコンテンツを含みます。Viewはスクロール、挿入、削除、配置などの操作を可能にします。
 
 [Control](https://developer.apple.com/design/human-interface-guidelines/ios/controls/)：アクションを開始し、情報を伝えます。ボタン、スイッチ、テキストフィールド、プログレスインジケータなどがコントロールの例です。
+
+
+UIKitはiOSにおけるインターフェースだけではなく、アプリが取り入れられる機能も定義しています。例えば、このフレームワークを通じてアプリはタッチスクリーン上のジェスチャーに応答し、描画、アクセシビリティ、プリントなどの機能を有効にすることができます。
+
+iOSはApple Pay、HealthKit、ResearchKit、などの他のプログラミングフレームワークや[テクノロジー](https://developer.apple.com/design/human-interface-guidelines/#technologies)と密接に関係しているため、驚くほど強力なアプリを設計できます。
