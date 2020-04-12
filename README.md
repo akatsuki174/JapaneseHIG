@@ -1,2 +1,2 @@
 # JapaneseHIG
-Human Interface Guidelineの日本語版
+Human Interface Guidelines の日本語版。英語が得意なわけではないので、少し不自然になっているところもあると思います。ご了承ください。
