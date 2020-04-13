@@ -7,3 +7,5 @@
 以下に示すガイドラインは、楽しい起動体験を作るのに役立ちます。開発者向けガイダンスは[Responding to the Launch of Your App](https://developer.apple.com/documentation/uikit/app_and_environment/responding_to_the_launch_of_your_app)をご覧ください。
 
 **ローンチスクリーンを用意しましょう。**アプリが起動した瞬間にローンチスクリーンが表示され、すぐアプリの最初の画面が表示されます。ローンチスクリーンの役割は、初期コンテンツの読み込みを行いながらアプリが高速ですぐ反応するという印象をユーザに与えることです。ローンチスクリーンから確実にシームレスに移行するには、起動後最初に現れる画面に似ていて、それ自体目立たない画面をデザインすることです。ガイダンスは[Launch Screen](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/launch-screen)をご覧ください。
+
+**適切な向きで起動しましょう。**もし縦横両方の向きに対応したアプリを作っているなら、デバイスの現在の向きに合わせて起動すべきです。一方向でしか動作しないなら常にその向きで起動し、必要に応じて回転させるようにします。やむを得ない理由がない限り、横向きのアプリはデバイスを左右に回転させたかどうかに関わらず、正しい向きにする必要があります。ガイダンスは[Adaptivity and Layout](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout)をご覧ください。
