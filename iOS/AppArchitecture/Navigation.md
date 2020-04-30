@@ -25,3 +25,5 @@
 アプリの中には複数のナビゲーションスタイルを組み合わせているものもあります。例えばフラットナビゲーションを使用しているアプリが各カテゴリ内に階層型ナビゲーションを実装することもあります。
 
 **常に明確なパスを示してください。** ユーザは今アプリのどこにいるのか、どうやったら次の目的地に辿り着けるのかを常に知っている必要があります。ナビゲーションスタイルに限らず、コンテンツへのパスは論理的に筋が通っていること、予測可能なこと、辿りやすいことが大切です。基本的には、各画面へのパスは1つにします。もし1つの画面を複数のコンテキストで見る必要がある場合は、アクションシート、アラート、ポップアップ、モーダルビューの使用を検討してください。より詳しく知りたい場合は、[Action Sheets](https://developer.apple.com/design/human-interface-guidelines/ios/views/action-sheets/)、[Alerts](https://developer.apple.com/design/human-interface-guidelines/ios/views/alerts/)、[Popovers](https://developer.apple.com/design/human-interface-guidelines/ios/views/popovers/)、[Modality](https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/modality/)をご覧ください。
+
+**コンテンツに素早く、簡単に辿り着けるような情報構造設計をしましょう。** 最低限のタップ数、スワイプ数、画面数で済むような情報構造を作り上げましょう。
