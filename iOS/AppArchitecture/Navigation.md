@@ -35,3 +35,5 @@
 **ナビゲーションバーを使用してデータの階層を辿れるようにしましょう。** ナビゲーションバータイトルは階層内の現在の位置を表示することができますし、戻るボタンは前の画面に簡単に戻ることができます。具体的なガイダンスは[Navigation Bars](https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/)を参照してください。
 
 **タブバーを使用して、コンテンツや機能的に同じカテゴリを表示しましょう。** タブバーを使用すると、現在の位置に関係なく素早く簡単にカテゴリを切り替えることができます。詳細は[Tab Bars](https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/)をご覧ください。
+
+**同じタイプのコンテンツが複数ページある場合は、ページコントロールを使用しましょう。** ページコントロールは利用可能なページ数や現在アクティブなページをはっきり伝えることができます。天気アプリではページコントロールを使用して場所ごとの天気ページを表示しています。より詳しいガイダンスは[Page Controls](https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/)をご覧ください。
