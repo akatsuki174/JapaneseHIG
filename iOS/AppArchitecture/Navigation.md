@@ -37,3 +37,7 @@
 **タブバーを使用して、コンテンツや機能的に同じカテゴリを表示しましょう。** タブバーを使用すると、現在の位置に関係なく素早く簡単にカテゴリを切り替えることができます。詳細は[Tab Bars](https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/)をご覧ください。
 
 **同じタイプのコンテンツが複数ページある場合は、ページコントロールを使用しましょう。** ページコントロールは利用可能なページ数や現在アクティブなページをはっきり伝えることができます。天気アプリではページコントロールを使用して場所ごとの天気ページを表示しています。より詳しいガイダンスは[Page Controls](https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/)をご覧ください。
+
+
+ヒント  
+セグメンティッドコントロールとツールバーではナビゲーションはできません。情報を異なるカテゴリに整理するときに異なるカテゴリにセグメンティッドコントロールを使います。ツールバーは現在のコンテキストに対してインタラクティブに操作するときに使います。これらのタイプの要素について詳しく知りたい方は、[Segmented Controls](https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/)、[Toolbars](https://developer.apple.com/design/human-interface-guidelines/ios/bars/toolbars/)をご覧ください。
