@@ -15,3 +15,5 @@
 [図]
 
 **アプリを機能させるために必要な場合のみ、起動時に権限のリクエストをしてください。** アプリの操作が個人情報ありきであることが明らかな場合は、ユーザは権限要求を迷惑がらないでしょう。
+
+**不必要に位置情報を要求しないでください。** 位置情報にアクセスする前に、システム側に位置情報サービスが有効になっているか確認してください。この知識があれば、本当に位置情報が必要な機能に触れるまでアラートを遅らせたり、アラートを完全に避けることができます。位置情報機能の実装方法は[MapKit](https://developer.apple.com/documentation/mapkit)、[Location and Maps Programming Guide](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/LocationAwarenessPG/Introduction/Introduction.html)をご覧ください。
