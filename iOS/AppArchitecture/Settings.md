@@ -9,3 +9,5 @@
 **システムから可能な限りのことを推測しましょう。** もしユーザ、デバイス、環境設定に関する情報が必要な場合は、可能な限りユーザに尋ねるのではなく、システムに問い合わせてください。例えば、ローカル情報に基づいた選択肢を表示するために郵便番号を入力させるのではなく、現在地への使用許可を求めるようにしましょう。ユーザが自分の情報へのアクセスを拒否した場合は、潔く手動入力に切り替えましょう。
 
 **アプリ内の設定オプションにはしっかり優先順位を付けてください。** アプリのメイン画面は、必須のオプションや頻繁に変更されるオプションを配置するのに適しています。たまにしか変更されないオプションはその次の画面の方が適しています。
+
+**頻繁に変更されないオプションは設定アプリに並べておきましょう。** 設定アプリはシステム全体を通じて設定変更を行うための中心的な場所ですが、そこにたどり着くにはアプリを離れる必要があります。アプリ内で直接設定できた方が遥かに便利です。もし変更の必要が滅多にない設定を提供しなければならない時は、[Preferences and Settings Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/UserDefaults/Introduction/Introduction.html)の[Implementing an iOS Settings Bundle](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/UserDefaults/Preferences/Preferences.html)をご覧ください。
