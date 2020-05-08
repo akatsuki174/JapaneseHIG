@@ -11,3 +11,7 @@
 **アプリ内の設定オプションにはしっかり優先順位を付けてください。** アプリのメイン画面は、必須のオプションや頻繁に変更されるオプションを配置するのに適しています。たまにしか変更されないオプションはその次の画面の方が適しています。
 
 **頻繁に変更されないオプションは設定アプリに並べておきましょう。** 設定アプリはシステム全体を通じて設定変更を行うための中心的な場所ですが、そこにたどり着くにはアプリを離れる必要があります。アプリ内で直接設定できた方が遥かに便利です。もし変更の必要が滅多にない設定を提供しなければならない時は、[Preferences and Settings Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/UserDefaults/Introduction/Introduction.html)の[Implementing an iOS Settings Bundle](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/UserDefaults/Preferences/Preferences.html)をご覧ください。
+
+[スクショ]
+
+**妥当だと思われる場合は設定アプリへのショートカットを提供しましょう。** アプリ内に「設定 > MyApp > プライバシー > 位置情報サービス」など、ユーザを設定アプリに誘導するテキストが存在している場合は、その場所が自動で開くボタンを用意してあげましょう。開発者向けガイダンスは[UIApplication](https://developer.apple.com/documentation/uikit/uiapplication)の[openSettingsURLString](https://developer.apple.com/documentation/uikit/uiapplication/1623042-opensettingsurlstring)をご覧ください。
