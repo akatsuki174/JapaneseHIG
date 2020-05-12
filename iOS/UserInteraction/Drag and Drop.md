@@ -28,3 +28,5 @@ iPadではアプリが移動元と移動先で異なる場合もあり、Safari�
 **すべての選択可能なコンテンツ、編集可能なコンテンツでドラッグ＆ドロップを利用できるようにしましょう。** 選択可能なコンテンツはドラッグ可能にし、編集可能なコンテンツはドロップしたコンテンツを受け入れるようにしましょう。また、アプリがこれらの領域でコピー＆ペーストができるようにしてください。
 
 **妥当だと思われる場合は、コントロールにコンテンツをドロップできるようにしましょう。** 一般的に、テキストフィールドのようなデータ入力や選択などができるものが、ドロップされたコンテンツが受け入れられるよう設定しておくと良いです。
+
+**可能な限り、標準のテキストビューやテキストフィールドを使用してください。** これらシステムが提供する要素には元からドラッグ＆ドロップがサポートされています。関連するガイダンスとして、[Text Fields](https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/)と[Text Views](https://developer.apple.com/design/human-interface-guidelines/ios/views/text-views/)もご覧ください。開発者向けガイダンスは[UITextField](https://developer.apple.com/documentation/uikit/uitextfield)と[UITextView](https://developer.apple.com/documentation/uikit/uitextview)をご覧ください。
