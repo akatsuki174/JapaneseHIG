@@ -30,3 +30,7 @@ iPadではアプリが移動元と移動先で異なる場合もあり、Safari�
 **妥当だと思われる場合は、コントロールにコンテンツをドロップできるようにしましょう。** 一般的に、テキストフィールドのようなデータ入力や選択などができるものが、ドロップされたコンテンツが受け入れられるよう設定しておくと良いです。
 
 **可能な限り、標準のテキストビューやテキストフィールドを使用してください。** これらシステムが提供する要素には元からドラッグ＆ドロップがサポートされています。関連するガイダンスとして、[Text Fields](https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/)と[Text Views](https://developer.apple.com/design/human-interface-guidelines/ios/views/text-views/)もご覧ください。開発者向けガイダンスは[UITextField](https://developer.apple.com/documentation/uikit/uitextfield)と[UITextView](https://developer.apple.com/documentation/uikit/uitextview)をご覧ください。
+
+[スクショ]
+
+**効率を上げるために、複数アイテムのドラッグ＆ドロップに対応することを検討してください。** 多くのアプリでは、1本の指で1つのアイテムをドラッグすることができ、ドラッグ中は他の指で追加アイテムをタップして選択することができます。これら選択されたアイテムは一緒に移動し、元々選択していたアイテムの下に重ねて表示されます。次にユーザはアイテムをグループとしてドラッグし、目的の場所にドロップします。例えばホーム画面では複数のアプリのアイコンを選択、ドラッグして一気にフォルダ格納することができます。写真アプリのようにいくつかのアプリでは、ドラッグする前から複数アイテムを選択できるモードが用意されているアプリもあります。
